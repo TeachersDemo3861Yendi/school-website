@@ -1,0 +1,1103 @@
+body {
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+h1  {
+    background-color: #064e3b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    
+    
+ 
+    
+}
+
+
+h2 {
+    color: #064e3b;
+    
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+p, ul {
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.logo{
+width: 150px;
+height: 150px;
+   
+
+    object-fit: contain;
+}
+
+.school-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Mobile-friendly design */
+
+@media (max-width: 700px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    nav a {
+        display: block;
+        margin: 0;
+        padding: 8px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .welcome {
+        padding: 25px 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .school-image {
+        width: 100%;
+    }
+
+}
+
+
+.staff-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.staff-card {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.staff-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.staff-card h3 {
+    margin-bottom: 5px;
+}
+
+.staff-card h4 {
+    margin-top: 5px;
+    color: #064e3b;
+}
+
+
+.class-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.class-card {
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.class-card h3 {
+    color: #064e3b;
+    font-size: 24px;
+}
+
+.class-card p {
+    margin: 10px 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact-card h3 {
+    color: #064e3b;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #064e3b;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-button {
+    display: none;
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+    .menu-button {
+        display: block;
+        width: 100%;
+    }
+
+    #main-menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    #main-menu.show {
+        display: flex;
+    }
+
+    #main-menu a {
+        display: block;
+        padding: 12px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+header h1 {
+    margin: 15px 0 5px;
+    font-size: 30px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #064e3b;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #064e3b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.school-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #064e3b;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+.cards,
+.staff-container,
+.class-container,
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card,
+.staff-card,
+.class-card,
+.contact-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+    flex: 1;
+    min-width: 220px;
+}
+
+.staff-card,
+.class-card,
+.contact-card {
+    width: 280px;
+}
+
+.staff-card {
+    text-align: center;
+}
+
+.staff-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.staff-card h3 {
+    margin-bottom: 5px;
+}
+
+.staff-card h4 {
+    margin-top: 5px;
+    color: #064e3b;
+}
+
+.class-card {
+    text-align: center;
+}
+
+.class-card h3 {
+    color: #064e3b;
+    font-size: 24px;
+}
+
+.contact-card {
+    text-align: center;
+}
+
+.contact-card h3 {
+    color: #064e3b;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #064e3b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    .cards,
+    .staff-container,
+    .class-container,
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .staff-card,
+    .class-card,
+    .contact-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .menu-button {
+        display: block;
+        width: 100%;
+        background-color: #222;
+        color: white;
+        border: none;
+        padding: 12px;
+        font-size: 24px;
+    }
+
+    #main-menu {
+        display: none;
+    }
+
+    #main-menu.show {
+        display: flex;
+    }
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.news-card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.news-card h3 {
+    color: #064e3b;
+}
+
+.news-date {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+.events-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.event-card {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.event-date {
+    min-width: 80px;
+    height: 80px;
+    background-color: #064e3b;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event-date .month {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.event-date .day {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.event-details h3 {
+    margin-top: 0;
+    color: #064e3b;
+}
+
+@media (max-width: 600px) {
+
+    .event-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.gallery-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    font-weight: bold;
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img {
+        height: auto;
+    }
+
+}
+
+
+form select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+/* Admission Page */
+
+.welcome {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.welcome h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+iframe {
+    width: 100%;
+    min-height: 900px;
+    border: none;
+}
+/* Homepage */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.hero img {
+    width: 50%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-home,
+.classes-home,
+.admission-home {
+    text-align: center;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.about-home p {
+    line-height: 1.7;
+}
+
+.class-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.class-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.class-card h3 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h2 {
+        font-size: 25px;
+    }
+
+    .class-list {
+        grid-template-columns: 1fr;
+    }
+
+    .news-list {
+        grid-template-columns: 1fr;
+    }
+
+    .staff-list {
+        grid-template-columns: 1fr;
+    }
+.gallery-grid {
+    grid-template-columns: 1fr;
+}
+.contact-info {
+    grid-template-columns: 1fr;
+}
+}
+
+/* News Section */
+
+.news-home {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+}
+
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.news-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.news-card h3 {
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    line-height: 1.6;
+}
+
+.news-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* News Page */
+
+.news-page {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.news-page > h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.news-page > p {
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.news-article {
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.news-article h3 {
+    margin-bottom: 8px;
+}
+
+.news-date {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.news-article p {
+    line-height: 1.7;
+}
+
+.news-article a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Events Page */
+
+.events-page {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.events-page > h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.events-page > p {
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.event-card {
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.event-card h3 {
+    margin-bottom: 15px;
+}
+
+.event-card p {
+    line-height: 1.7;
+}
+
+/* Staff Page */
+
+.staff-page {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.staff-page > h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.staff-page > p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.staff-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.staff-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.staff-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.staff-card h3 {
+    margin-bottom: 8px;
+}
+
+.staff-card p {
+    line-height: 1.6;
+}
+
+
+/* Gallery Page */
+
+.gallery-page {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-page > h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.gallery-page > p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item figcaption {
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* Contact Page */
+
+.contact-page {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-page > h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-page > p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contact-card {
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-card h3 {
+    margin-bottom: 10px;
+}
+
+.contact-card p {
+    line-height: 1.6;
+}
+
+.map-section {
+    margin-top: 35px;
+}
+
+.map-placeholder {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.map-placeholder a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+/* Contact Form */
+
+.contact-form-section {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+}
+
+.contact-form-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-form-section > p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-section label {
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-form-section button {
+    margin-top: 20px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
