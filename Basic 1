@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <img class="logo" src="logo.png" alt="School Logo">
+
+        <h1>Teachers' Demonstration Basic School</h1>
+
+        <p>Quality Education • Discipline • Excellence</p>
+
+    </header>
+
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="classes.html">Classes</a>
+        <a href="staff.html">Staff</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+    <main>
+
+        <section class="welcome">
+
+            <h2>Basic 1</h2>
+
+            <p>
+                Welcome to the Basic 1 class.
+                Our programme focuses on developing strong
+                foundations in literacy, numeracy and other
+                important learning skills.
+            </p>
+
+        </section>
+
+
+        <section>
+
+            <h2>Subjects</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>English Language</h3>
+                    <p>
+                        Reading, writing, speaking and listening
+                        skills.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Mathematics</h3>
+                    <p>
+                        Numbers, basic operations, measurement
+                        and problem-solving.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Science</h3>
+                    <p>
+                        Exploring the environment and developing
+                        basic scientific skills.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Our World Our People</h3>
+                    <p>
+                        Learning about ourselves, our community
+                        and the wider world.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2>Learning Goals</h2>
+
+            <ul>
+
+                <li>Develop basic reading skills.</li>
+
+                <li>Improve handwriting and writing skills.</li>
+
+                <li>Develop basic numeracy skills.</li>
+
+                <li>Build confidence in communication.</li>
+
+                <li>Develop positive social behaviour.</li>
+
+            </ul>
+
+        </section>
+
+
+        <section class="contact">
+
+            <h2>Back to Classes</h2>
+
+            <a class="button" href="classes.html">
+                View All Classes
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Teachers' Demonstration Basic School.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
