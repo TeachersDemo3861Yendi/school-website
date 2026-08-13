@@ -74,7 +74,7 @@
                     <h3>📧 Email</h3>
 
                     <p>
-                        teachersdemosch3861@gmail.com
+                        <a href="mailto:teachersdemosch3861@gmail.com">teachersdemosch3861@gmail.com</a>
                     </p>
 
                 </div>
@@ -89,6 +89,17 @@
             <h2>Send Us a Message</h2>
 
             <form action="https://formsubmit.co/el/rososi" method="POST">
+
+                <!-- FormSubmit recommended hidden fields -->
+                <!-- Redirect to a thank-you page after successful submit -->
+                <input type="hidden" name="_next" value="thank-you.html">
+                <!-- Set a clear subject for incoming emails -->
+                <input type="hidden" name="_subject" value="New message from school website">
+                <!-- Disable FormSubmit captcha (set "false") or remove this field to keep captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Honeypot anti-spam field: real users won't fill this -->
+                <input type="text" name="_honey" style="display:none;" tabindex="-1" autocomplete="off">
 
                 <label for="name">Full Name</label>
 
